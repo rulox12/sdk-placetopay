@@ -1,0 +1,25 @@
+{
+  "name": "sdk-nodejs-p2p",
+  "version": "1.0.0",
+  "description": "Create SDK to connect to PlacetoPay",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express.js": "^1.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rulox12/sdk-nodejs-p2p.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rulox12/sdk-nodejs-p2p/issues"
+  },
+  "homepage": "https://github.com/rulox12/sdk-nodejs-p2p#readme"
+}
