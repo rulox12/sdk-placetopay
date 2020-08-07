@@ -1,12 +1,6 @@
-var placetopay = require("./lib/placetopay");
+var request = {};
 
-var placetopay = new placetopay({
-  login: "6dd490faf9cb87a9862245da41170ff2",
-  trankey: "024h1IlD",
-  url: "https://test.placetopay.com/redirection",
-});
-
-json = {
+request.request = {
   buyer: {
     name: "Abraham",
     surname: "Heathcote",
@@ -23,7 +17,7 @@ json = {
       total: 168000,
     },
   },
-  expiration: "2020-07-23T15:41:54-05:00",
+  expiration: "2020-04-23T15:41:54-05:00",
   ipAddress: "191.95.149.7",
   returnUrl: "https://dnetix.co/p2p/client",
   userAgent:
@@ -31,6 +25,6 @@ json = {
   paymentMethod: "",
 };
 
-placetopay.query(123123).then((value) => {
-  console.log(value);
-});
+request.query = 123456;
+
+module.exports = request;
