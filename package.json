@@ -4,13 +4,20 @@
   "description": "Create SDK to connect to PlacetoPay",
   "main": "index.js",
   "dependencies": {
+    "base-64": "^0.1.0",
+    "crypto": "^1.0.1",
     "express": "^4.17.1",
     "express.js": "^1.0.0",
     "request": "^2.88.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coverage-node": "^2.0.3",
+    "mocha": "^7.1.1",
+    "nock": "^12.0.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "coverage-node node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
